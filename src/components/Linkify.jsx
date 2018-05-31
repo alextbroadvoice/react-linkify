@@ -9,7 +9,7 @@ import defaultTextDecorator from 'decorators/defaultTextDecorator';
 
 type Props = {
   children: React.Node,
-  componentDecorator: (string, string, number) => React.Node,
+  componentDecorator: (string, string, number, string) => React.Node,
   hrefDecorator: (string) => string,
   matchDecorator: (string) => Array<Object>,
   textDecorator: (string) => string,
